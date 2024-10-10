@@ -1,0 +1,13 @@
+/vendor/
+/composer.lock
+node_modules/
+/package-lock.json
+/.vscode/
+/.idea/
+.env
+/blog/connect_db.php
+/storage/logs/
+/storage/cache/
+/tmp/
+/public/uploads/
+.DS_Store

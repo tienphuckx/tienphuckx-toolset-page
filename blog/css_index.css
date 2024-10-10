@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 219, 219);
+}
+
+#wrap {
+    margin-top: 30px;
+}
+
+/*HEADER*/
+.head-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #000; /* Black background */
+    padding: 20px; /* Optional: Padding for spacing */
+    text-align: center;
+}
+
+.lg-name {
+    font-size: 36px; /* Increase logo size */
+    color: gray; /* Gray color for the logo text */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+.links {
+    margin-top: 10px; /* Space between the logo and links */
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: gray; /* White links */
+    font-size: 16px; /* Adjust font size for the links */
+}
+
+.links a:hover {
+    color: #0073b1; /* Optional: Change link color on hover */
+}
+
+
+/* Navigation wrapper */
+.nav-wrap {
+    border-top: 1px solid gray;
+    background-color: #000; /* Black background */
+    padding: 20px;
+    text-align: center; /* Center content horizontally */
+    width: 100%; /* Full width navigation bar */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for some depth */
+}
+
+/* Navigation list */
+.nav-list {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.nav-list li {
+    margin: 0 10px; /* Space between each item */
+    font-size: 15px; /* Adjust font size */
+    color: gray; /* Gray text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    /* background-color: gray; */
+    border-bottom: 1px solid gray;
+}
+
+.nav-list li:hover {
+    color: white; /* Change text color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; /* Stack navigation items vertically on smaller screens */
+    }
+
+    .nav-list li {
+        margin: 10px 0; /* Adjust vertical spacing between items */
+    }
+}
+
+/* CONTENT - left: POST */
+
+.wrap-left-content {
+    margin-top: 10px;
+}
+
+.block-left {
+    background-color: #fff;
+}
+
+.block-right {
+    background-color: gray;
+}
+
+.a-post {
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-title {
+    margin-bottom: 5px;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: gray;
+}
+
+.post-title h3.title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 14px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #000;
+    color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #dee2e6;
+}
+
+.tag-badge:hover {
+    background-color: #0056b3;
+}
+
+.a-post .card-text {
+    margin-bottom: 13px;
+}
+
+.a-post .social .comment {
+    margin-left: 13px;
+}
+
+.a-post .social .love {
+    margin-left: 13px;
+}
+
+
+/** RIGHT BAR*/
+#right-area {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.avatar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.list-tools ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-tools li {
+    margin: 10px 0;
+}
+
+.list-tools li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.list-tools li a:hover {
+    text-decoration: underline;
+}
+
+.tags-section {
+    margin-top: 20px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.badge:hover {
+    background-color: #0056b3;
+}
+
+#right-area p {
+    color: #6c757d;
+    font-style: italic;
+}
+
+
+
+/* FOOTER */
+.cpy-right {
+    color: gray;
+    font-size: 15px;
+}
