@@ -5,7 +5,6 @@ node_modules/
 /.vscode/
 /.idea/
 .env
-/blog/connect_db.php
 /storage/logs/
 /storage/cache/
 /tmp/
